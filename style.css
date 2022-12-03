@@ -1,0 +1,12 @@
+mainnav{
+    text-align: center;
+    align-items: center;
+}
+center{
+    position: absolute;
+}
+div{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(62, 38, 7);
+}
