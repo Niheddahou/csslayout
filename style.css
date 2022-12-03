@@ -1,12 +1,173 @@
-mainnav{
+.mainnav {
     text-align: center;
     align-items: center;
 }
-center{
-    position: absolute;
+
+.navbar a {
+    color: #ababab;
+    text-decoration: none;
 }
-div{
-    border-width: 1px;
-    border-style: dashed;
-    border-color: rgb(62, 38, 7);
+
+.navbar #aboutus {
+    color: #00b39b;
+}
+
+.navbar a:hover {
+    color: #00b39b;
+}
+
+.mainnav a {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    /* z-index: 999; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: white;
+
+}
+
+/* .lead-logo {
+    display: block;
+    margin: 0 auto;
+  
+}
+ */
+#h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+}
+
+.section-inner {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.para {
+    display: flex;
+}
+
+.para p {
+    padding: 20px;
+}
+
+.patients {
+        background: #00b39b;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        border-radius: 10px;
+        padding: 2em;
+        margin: 15px;
+        transition: 0.7s ease;
+        color: white;
+    }
+
+    .doctors {
+        background: #3d83df;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        border-radius: 10px;
+        padding: 2em;
+        margin: 15px;
+        transition: 0.7s ease;
+        color: white;
+    }
+
+    .clinics {
+        background: #1b2734;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        border-radius: 10px;
+        padding: 2em;
+        margin: 15px;
+        transition: 0.7s ease;
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .info {
+        margin-bottom: 70px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+.patients {
+    background-color: #00b39b;
+}
+
+.doctors {
+    background-color: #5160e2;
+}
+
+.clinics {
+    background-color: #323d49;
+}
+
+.brand-logos a :hover {
+    color: #00b39b;
+}
+
+.li {
+    color: #323d49;
+}
+
+.brand-logo {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    color: #323d49;
+}
+
+.footer h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+
+.brand-logos a :hover {
+    color: #00b39b;
+}
+a  {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+.select {
+    text-decoration: underline;
+
 }
